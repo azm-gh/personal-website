@@ -1,9 +1,10 @@
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
+import Image from "next/image";
 
 export function Links() {
   return (
-    <section className="text-5xl flex justify-center gap-16 py-3 text-gray-800">
+    <section className="text-5xl flex justify-center gap-16 py-3 dark:bg-gray-700 rounded">
       <a
         href="https://www.linkedin.com/in/jakub-jehlik/"
         target="_blank"
@@ -16,7 +17,7 @@ export function Links() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="mentor.png" alt="logo" width="48" height="48" />
+        <Image src="/mentor.png" alt="logo" width="48" height="48" className="dark:bg-gray-900 rounded-xl" />
       </a>
       <a
         href="https://github.com/azm-gh"

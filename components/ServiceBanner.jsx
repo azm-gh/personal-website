@@ -53,14 +53,13 @@ export function ServiceBanner(props) {
   ));
 
   return (
-    <div className="text-center shadow-lg p-10 round-xl my-10 dark:bg-white">
-      <div style={{ borderRadius: "5px", overflow: "hidden" }}>
-        <Image src={props.soft} width={400} height={300} />
-      </div>
+    
+    <div className="text-center shaow-lg p-10 d my-10  rounded-md dark:text-gray-400" >
+        <Image className="rounded-md" src={props.soft} width={400} height={300} alt={"software"} />
       <h3 className="text-lg font-medium pt-8 pb-2">{props.serviceType}</h3>
       <p className="py-2">{props.description}</p>
       <h4 className="py-4 text-teal-600">{props.skill}</h4>
-      <div className="text-gray-900 py-1">
+      <div className="text-gray-900 py-1 dark:text-gray-400">
         <ul>{skillsList}</ul>
       </div>
     </div>

@@ -5,12 +5,12 @@ export function Introduction() {
         Jakub Jehlík
       </h2>
       <p>Site is In Construction</p>
-      <h3 className="text-2xl py-2 md:text-3xl">
+      <h3 className="text-2xl py-2 md:text-3xl dark:text-teal-600">
         Software engineer / Solutions Architect
       </h3>
-      <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto">
+      <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-gray-400">
         experienced IT professional interested in
-        <span className="text-teal-500">technology, software development</span>
+        <span className="text-teal-500"> technology, software development </span>
         and the latest progress in the industry. I enjoy deep dives into hard
         problems and tackling them from all aspects to provide business value
         for the customer.
