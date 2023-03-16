@@ -25,6 +25,7 @@ import { ServiceBanner } from "../components/ServiceBanner";
 import { softwareSkills } from "../components/ServiceBanner";
 import { consultingSkills } from "../components/ServiceBanner";
 import { SASkills } from "../components/ServiceBanner";
+import { Portfolio } from "@/components/Portfolio";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false)
@@ -61,7 +62,7 @@ export default function Home() {
                 serviceType={"Software Engineering"}
                 skill={"Techstack I use"}
                 description={
-                  "Delivering excellent services tailored to the client's needs"
+                  "I turn coffee to code on daily basis"
                 }
               />
               <ServiceBanner
@@ -70,7 +71,7 @@ export default function Home() {
                 serviceType={"Consulting"}
                 skill={"Tools I use"}
                 description={
-                  "Delivering excellent services tailored to the client's needs"
+                  "I can provide my expertise and insight into the subject matter"
                 }
               />
 
@@ -80,7 +81,7 @@ export default function Home() {
                 serviceType={"Solution Architecture"}
                 skill={"Tools I use"}
                 description={
-                  "Delivering excellent services tailored to the client's needs"
+                  "Years of experience in IT analysis and architecture"
                 }
               />
             </div>
@@ -88,9 +89,9 @@ export default function Home() {
 
           <section>
             <div>
-              <h3 className="text-3xl py-1">Portfolio</h3>
+              <h3 className="text-3xl py-1">Customers I worked with</h3>
               <p className="text-md py-2 leading-8 text-gray-800  dark:text-gray-400">
-               My customers ranged from smaller Czech companies to international brands. Some of them are listed below:
+               My customers ranged from smaller Czech companies to international brands. Some of them are listed below.
               </p>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">

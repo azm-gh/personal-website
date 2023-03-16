@@ -23,6 +23,8 @@ export function Navigation(props) {
             <button>Download CV</button>
           </a>
         </li>
+        <li className="px-8">
+          <a href="Projects">Projects</a></li>
       </ul>
     </nav>
   );
